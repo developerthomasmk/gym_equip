@@ -1,2 +1,2 @@
 # gym_equip
-My web project
+My web project for web and mobile technology...
