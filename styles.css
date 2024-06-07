@@ -54,6 +54,16 @@ body {
     margin-right: 20px;
 }
 
+.header .account .account-items li img{
+    width: 20px;
+    height: 20px;
+}
+
+/* .header .account .account-items .user img{
+    width: 20px;
+    height: 20px;
+} */
+
 .content {
     position: relative;
     width: 100%;
