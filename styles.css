@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
+    /* background-color: black; */
 }
 
 .header {
@@ -59,12 +60,7 @@ body {
     height: 20px;
 }
 
-/* .header .account .account-items .user img{
-    width: 20px;
-    height: 20px;
-} */
-
-.content {
+.banner-layout {
     position: relative;
     width: 100%;
 }
@@ -110,4 +106,37 @@ body {
     font-size: 16px;
     width: 50%;
 
+}
+
+.new-arraival-heading{
+    display: flex;
+    margin-left: 50%;
+    justify-content: space-between;
+}
+
+.nav-btns{
+    margin-right: 100px;
+}
+
+.nav-btns button{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.nav-btns button img{
+    position: absolute;
+}
+
+.card1{
+    width: calc(25% - 10px);
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
