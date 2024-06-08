@@ -108,12 +108,6 @@ body {
 
 }
 
-.new-arraival-heading{
-    display: flex;
-    margin-left: 50%;
-    justify-content: space-between;
-}
-
 .nav-btns{
     margin-right: 100px;
 }
@@ -135,8 +129,30 @@ body {
     position: absolute;
 }
 
-.card1{
-    width: calc(25% - 10px);
-    height: 150px;
-    background-color: rgba(0, 0, 0, 0.3);
+.new-arraival-heading{
+    display: flex;
+    margin-left: 50%;
+    justify-content: space-between;
+}
+
+.new-arraival-heading h1{
+    
+}
+
+.card-layout{
+    display: flex;
+    /* gap: 20px; */
+    margin-left: 10px;
+}
+
+.card-layout div{
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    flex: 1;
+    /* max-width: 200px; */
+    width: calc((100% - 50)/4);
 }
